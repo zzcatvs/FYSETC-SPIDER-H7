@@ -27,7 +27,7 @@ The FYSETC Spider on steroids, amp up your printer build with our most powerful 
 - [*] Enable extra low-level configuration options 
 - Micro-controller Architecture (STMicroelectronics STM32)
 - Processor model (STM32H723)
-- Bootloader offset (128KiB bootloader)
+- Bootloader offset (No bootloader)
 - Clock Reference (25 Mhz crystal)
 - Communication interface (USB (on PA11/PA12))
 - USB ids (leave default)
@@ -36,14 +36,33 @@ The FYSETC Spider on steroids, amp up your printer build with our most powerful 
 ![klipper-usb](images/klipper-usb.png)
 
 
-
 ### CAN
 
-Coming Soon
+- [*] Enable extra low-level configuration options 
+- Micro-controller Architecture (STMicroelectronics STM32)
+- Processor model (STM32H723)
+- Bootloader offset (No bootloader)
+- Clock Reference (25 Mhz crystal)
+- Communication interface (CAN bus (on PB8/PB9))
+- (1000000) CAN bus speed
+- () GPIO pins to set at micro-controller startup
+
+![klipper-usb](images/klipper-can.png)
+
 
 ### CAN Bridge 
 
-Coming Soon (if compatible)
+- [*] Enable extra low-level configuration options 
+- Micro-controller Architecture (STMicroelectronics STM32)
+- Processor model (STM32H723)
+- Bootloader offset (No bootloader)
+- Clock Reference (25 Mhz crystal)
+- Communication interface (CAN bus (on PB8/PB9))
+- (1000000) CAN bus speed
+- () GPIO pins to set at micro-controller startup
+
+![klipper-usb](images/klipper-canbridge.png)
+
 
 ## GPIO and Pin Assignments 
 
